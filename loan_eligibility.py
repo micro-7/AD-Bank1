@@ -21,3 +21,4 @@ def check_eligibility(customer_id, loan_amount):
     if result and response.status_code == 200:
         return {"eligible": True, "amount": loan_amount}
     return {"eligible": False, "amount": 0}
+PRINT(":)
